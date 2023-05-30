@@ -14,6 +14,12 @@ body{
     padding-left:20px;
     display:flex;
 }
+.header-wrap{
+    width:1440px;
+    height:100px;
+    margin:auto;
+    display:flex;
+}
 .name{
     font-size:96px;
     font-family:Impact, 'Arial Narrow Bold', sans-serif;
@@ -36,7 +42,6 @@ body{
     height:100px;
     width:180px;
     text-align:center;
-    margin-right:
 }
 .menu li a{
     line-height:100px;
@@ -50,20 +55,110 @@ body{
 }
 .container{
     width:100%;
-    height:2000px;
+    min-height:2000px;
+    max-height:3000px;
 }
 .intro{
     height:600px;
-    width:100%;
+    width:1440px;
     background-color:#E5F77D;
+}
+.intro img{
+    width:600px;
+    height:600px;
+    margin-left:420px;
 }
 .info{
     margin-top:50px;
     width:900px;
-    height:500px;
+    height:325px;
     margin-left:auto;
     margin-right:auto;
+    background-color:#ffc7a2;
+    padding-top:20px;
+    border-radius:15px;
+}
+.info p{
     text-align:center;
     color:#f0ffff;
+    font-size:30px;
+    font-family:'Courier New', Courier, monospace;
+    margin:0;
+}
+.promises{
+    width:900px;
+    height:300px;
+    margin-left:auto;
+    margin-right:auto;
     background-color:#ffc7a2;
+    margin-top:50px;
+    border-radius:15px;
+    padding-top:10px;
+}
+.promises p, h1{
+    text-align:center;
+    color:#f0ffff;
+    font-family:'Courier New', Courier, monospace;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+.promises h1{
+    font-size:40px;
+}
+.promises p{
+    font-size:30px;
+}
+.example{
+    width:1000px;
+    min-height:500px;
+    max-height:1500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    background-color:#E5F77D;
+    border-radius:15px;
+}
+.example p{
+    font-size:40px;
+    text-align:center;
+    height:50px;
+    width:500px;
+    margin-top:0;
+    margin-left:auto;
+    margin-right:auto;
+    color:#1E000E;
+    font-weight:500;
+}
+.example img{
+    width:800px;
+    height:450px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+    border: black solid 5px;
+}
+.example a{
+    margin-left:100px;
+    margin-bottom:10px;
+}
+.contact{
+    width:900px;
+    height:500px;
+    background-color:#ffc7a2;
+    padding-top:30px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    border-radius:15px;
+}
+.contact p{
+    font-size:40px;
+    font-weight:500;
+    margin-bottom:15px;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+    width:500px;
+    margin-top:30px;
+    font-family:'Courier New', Courier, monospace;
 }
