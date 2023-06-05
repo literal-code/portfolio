@@ -1,5 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
-    background-color: #DEBA6F;
+    background-color: #e2cfb0;
+    font-family: 'Biryani', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Serif Pro', serif;
 }
 .wrapper{
     width:1440px;
@@ -14,16 +20,9 @@ body{
     padding-left:20px;
     display:flex;
 }
-.header-wrap{
-    width:1440px;
-    height:100px;
-    margin:auto;
-    display:flex;
-}
 .name{
     font-size:96px;
-    font-family:Impact, 'Arial Narrow Bold', sans-serif;
-    color:#DEBA6F;
+    color:#ffe67b;
     height:100px;
     line-height:100px;
     user-select: none;
@@ -55,110 +54,91 @@ body{
 }
 .container{
     width:100%;
-    min-height:2000px;
+    min-height:1300px;
     max-height:3000px;
 }
 .intro{
     height:600px;
     width:1440px;
-    background-color:#E5F77D;
+    background-color:#bfc6d0;
 }
 .intro img{
     width:600px;
     height:600px;
     margin-left:420px;
 }
-.info{
+#info{
     margin-top:50px;
-    width:900px;
-    height:325px;
+    width:1100px;
+    min-height:225px;
+    max-height:350px;
     margin-left:auto;
     margin-right:auto;
-    background-color:#ffc7a2;
     padding-top:20px;
     border-radius:15px;
+    display:flex;
 }
-.info p{
+#info img{
+    width:385px;
+    height:300px;
+}
+.info-box{
+    width:600px;
+    min-height:225px;
+    max-height:350px;
+    margin-left:100px;
+    margin-right:0px;
+    padding-top:20px;
+    border-radius:15px;
+    background-color:#bfc6d0;
+}
+.info-box p{
     text-align:center;
-    color:#f0ffff;
-    font-size:30px;
-    font-family:'Courier New', Courier, monospace;
+    color:#1E000E;
+    font-size:28px;
     margin:0;
 }
-.promises{
+#promises{
     width:900px;
     height:300px;
     margin-left:auto;
     margin-right:auto;
-    background-color:#ffc7a2;
+    background-color:#d1ccbe;
     margin-top:50px;
     border-radius:15px;
     padding-top:10px;
 }
-.promises p, h1{
+#promises p, h1{
     text-align:center;
-    color:#f0ffff;
-    font-family:'Courier New', Courier, monospace;
+    color:#1E000E;
     margin-top:10px;
     margin-bottom:15px;
 }
 .promises h1{
     font-size:40px;
 }
-.promises p{
+#promises p{
     font-size:30px;
 }
-.example{
-    width:1000px;
-    min-height:500px;
-    max-height:1500px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:50px;
-    background-color:#E5F77D;
-    border-radius:15px;
-}
-.example p{
-    font-size:40px;
-    text-align:center;
-    height:50px;
-    width:500px;
-    margin-top:0;
-    margin-left:auto;
-    margin-right:auto;
-    color:#1E000E;
-    font-weight:500;
-}
-.example img{
-    width:800px;
-    height:450px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:10px;
-    border: black solid 5px;
-}
-.example a{
-    margin-left:100px;
-    margin-bottom:10px;
-}
-.contact{
-    width:900px;
-    height:500px;
-    background-color:#ffc7a2;
-    padding-top:30px;
+#contact{
+    width:550px;
+    height:400px;
+    background-color:#d1ccbe;
+    padding-top:1px;
     margin-left:auto;
     margin-right:auto;
     margin-top:50px;
     border-radius:15px;
+    margin-bottom:25px;
 }
-.contact p{
+#contact p{
     font-size:40px;
-    font-weight:500;
     margin-bottom:15px;
     margin-left:auto;
     margin-right:auto;
-    color:white;
+    color:#1E000E;
     width:500px;
     margin-top:30px;
-    font-family:'Courier New', Courier, monospace;
+    font-weight:lighter;
 }
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@400;700&family=Roboto:wght@400;700&family=Source+Serif+Pro&display=swap');
