@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@400;700&family=Roboto:wght@400;700&family=Source+Serif+Pro&display=swap');
 body{
     background-color:#e2cfb0;
+    font-family: 'Biryani', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+.wrapper{
+    width:100%;
+    min-height:200px;
+    margin:auto;
 }
 .header{
-    min-width:880px;
+    width:100%;
     height:100px;
     background-color:#1E000E;
     padding-left:20px;
@@ -16,7 +25,6 @@ body{
 }
 .name{
     font-size:96px;
-    font-family:Impact, 'Arial Narrow Bold', sans-serif;
     color:#ffe67b;
     height:100px;
     line-height:100px;
@@ -43,13 +51,52 @@ body{
     text-align:center;
     color:white;
     text-decoration:none;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .menu li a:hover{
     text-decoration: underline solid;
 }
 .content{
-    width:900px;
-    height:500px;
+    width:1300px;
+    height:750px;
     margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:50px;
+    align-items: flex-start;
+    margin-bottom:25px;
+}
+.box1, .box2, .box3, .box4{
+    width:640px;
+    height:360px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:30px;
+    background-size: cover;
+    border: 2px black solid;
+}
+.box1{
+    background-image:url("/imgs/image\ \(17\).png");
+}
+.box2{
+    background-image:url("/imgs/image\ \(18\).png");
+}
+.box3{
+    background-image:url("/imgs/image\ \(19\).png");
+}
+.box4{
+    background-image:url("/imgs/image\ \(21\).png");
+}
+.box1 a, .box2 a, .box3 a, .box4 a{
+    width:640px;
+    height:360px;
+    display:block;
+}
+.footer{
+    width:100%;
+    height:75px;
+    background:linear-gradient(#e2cfb0, #808080);
+    text-align:center;
+    color:#1E000E;
+    line-height:75px;
+    font-size:20px;
 }
