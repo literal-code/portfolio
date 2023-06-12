@@ -75,16 +75,16 @@ body{
     border: 2px black solid;
 }
 .box1{
-    background-image:url("/imgs/image\ \(17\).png");
+    background-image:url("imgs/image\ \(17\).png");
 }
 .box2{
-    background-image:url("/imgs/image\ \(18\).png");
+    background-image:url("imgs/image\ \(18\).png");
 }
 .box3{
-    background-image:url("/imgs/image\ \(19\).png");
+    background-image:url("imgs/image\ \(19\).png");
 }
 .box4{
-    background-image:url("/imgs/image\ \(21\).png");
+    background-image:url("imgs/image\ \(21\).png");
 }
 .box1 a, .box2 a, .box3 a, .box4 a{
     width:640px;
