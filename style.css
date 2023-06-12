@@ -63,6 +63,7 @@ body{
     width:1440px;
     background-color:#bfc6d0;
     display:flex;
+    border: 2px solid black;
 }
 .intro p{
     font-size:48px;
